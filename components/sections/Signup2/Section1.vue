@@ -22,7 +22,7 @@
                                         <!-- Form Input -->
                                         <div class="col-md-12">
                                             <p class="p-sm input-header">Pan No</p>
-                                            <input class="form-control " type="text" name="pan" placeholder="Enter you Pan no" />
+                                            <input class="form-control " type="text" name="pan" placeholder="Enter your Pan no" />
                                         </div>
                                         <!-- Form Input -->
                                       
