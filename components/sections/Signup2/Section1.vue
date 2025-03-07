@@ -21,8 +21,8 @@
                                         </div>
                                         <!-- Form Input -->
                                         <div class="col-md-12">
-                                            <p class="p-sm input-header">Email address</p>
-                                            <input class="form-control email" type="email" name="email" placeholder="example@example.com" />
+                                            <p class="p-sm input-header">Pan No</p>
+                                            <input class="form-control " type="text" name="pan" placeholder="Enter you Pan no" />
                                         </div>
                                         <!-- Form Input -->
                                       
