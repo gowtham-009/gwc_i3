@@ -8,12 +8,8 @@
     </div>
 </template>
 <script setup>
-import { useHead } from '#imports'
      useHead({
-           title: 'Pricing',
-         meta: [
-           { name: 'description', content: 'This is for Signup site.' }
-         ],
+
            bodyAttrs: {
                class: "navbar-light"
            }

@@ -18,10 +18,7 @@
 </template>
 <script setup>
     useHead({
-           title: 'About',
-         meta: [
-           { name: 'description', content: 'This site for About us' }
-         ],
+       
            bodyAttrs: {
                class: "navbar-light"
            }

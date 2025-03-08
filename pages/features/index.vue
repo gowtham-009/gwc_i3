@@ -19,10 +19,7 @@
 </template>
 <script setup>
      useHead({
-          title: 'Features',
-        meta: [
-          { name: 'description', content: 'This is for Features site.' }
-        ],
+       
         
           bodyAttrs: {
               class: "navbar-dark"

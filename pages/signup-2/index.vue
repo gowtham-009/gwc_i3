@@ -10,10 +10,6 @@
     })
 
     useHead({
-          title: 'Signup',
-        meta: [
-          { name: 'description', content: 'My amazing site.' }
-        ],
           bodyAttrs: {
               class: "navbar-light"
           }
