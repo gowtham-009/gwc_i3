@@ -4,20 +4,7 @@ export default defineNuxtConfig({
         "@": resolve(__dirname, "/")
     },
  
-    app: {
-      head: {
-        title: 'Nuxt', // default fallback title
-        htmlAttrs: {
-          lang: 'en',
-        },
-        meta:[
-          { name: 'description', content: 'My Gwc site.' }
-        ],
-        link: [
-          { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        ]
-      }
-    },
+
 
     css: [
       "~/assets/css/vendors/bootstrap.min.css",
