@@ -26,10 +26,11 @@
 </template>
 
 <script setup>
+import { useHead } from '#imports'
     useHead({
         title: 'About Us',
       meta: [
-        { name: 'About', content: 'About us' }
+        { name: 'description', content: 'This site for about us ' }
       ],
         bodyAttrs: {
             class: "navbar-light"

@@ -20,7 +20,7 @@
     useHead({
            title: 'About',
          meta: [
-           { name: 'About us', content: 'About Site' }
+           { name: 'description', content: 'This site for About us' }
          ],
            bodyAttrs: {
                class: "navbar-light"

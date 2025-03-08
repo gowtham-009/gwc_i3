@@ -7,7 +7,7 @@
     useHead({
           title: 'FAQs',
         meta: [
-          { name: 'FAQs', content: 'FAQs site.' }
+          { name: 'description', content: 'This is for FAQs site.' }
         ],
           bodyAttrs: {
               class: "navbar-light"

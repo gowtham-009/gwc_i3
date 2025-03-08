@@ -9,6 +9,24 @@ export default defineNuxtConfig({
           htmlAttrs: {
             lang: 'en',
           },
+          meta: [
+            // Standard Meta Description
+            { name: 'description', content: 'This is for Signup site.' },
+            { name: 'keywords', content: 'web development, Nuxt 3, Vuetify, JavaScript' }
+            // Open Graph (Facebook, LinkedIn, etc.)
+            { property: 'og:title', content: 'Pricing - My Website' },
+            { property: 'og:description', content: 'Check out our affordable pricing plans!' },
+            { property: 'og:image', content: 'https://example.com/og-image.jpg' }, 
+            { property: 'og:url', content: 'https://example.com/pricing' },
+            { property: 'og:type', content: 'website' },
+        
+            // Twitter Card
+            { name: 'twitter:card', content: 'summary_large_image' },
+            { name: 'twitter:title', content: 'Pricing - My Website' },
+            { name: 'twitter:description', content: 'Check out our affordable pricing plans!' },
+            { name: 'twitter:image', content: 'https://example.com/twitter-image.jpg' },
+            { name: 'twitter:site', content: '@yourtwitterhandle' }
+          ],
           link: [
             { rel: 'icon', type: 'image/x-icon', href: 'https://cdn-icons-png.flaticon.com/128/439/439842.png' },
           ]

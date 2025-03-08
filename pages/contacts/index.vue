@@ -8,7 +8,7 @@
      useHead({
              title: 'Contacts',
            meta: [
-             { name: 'Contact', content: 'Contact site' }
+             { name: 'description', content: 'This is for Contact site' }
            ],
              bodyAttrs: {
                  class: "navbar-light"
