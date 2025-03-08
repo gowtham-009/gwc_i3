@@ -7,12 +7,11 @@
     useHead({
           title: 'FAQs',
         meta: [
-          { name: 'description', content: 'My amazing site.' }
+          { name: 'FAQs', content: 'FAQs site.' }
         ],
           bodyAttrs: {
               class: "navbar-light"
-          },
-          script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+          }
       })
   
 </script>

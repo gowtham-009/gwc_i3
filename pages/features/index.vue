@@ -21,7 +21,7 @@
      useHead({
           title: 'Features',
         meta: [
-          { name: 'description', content: 'My amazing site.' }
+          { name: 'Features', content: 'Features site.' }
         ],
         
           bodyAttrs: {

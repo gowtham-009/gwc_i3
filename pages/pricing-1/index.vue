@@ -11,12 +11,11 @@
      useHead({
            title: 'Pricing',
          meta: [
-           { name: 'description', content: 'My amazing site.' }
+           { name: 'Signup', content: 'Signup site.' }
          ],
            bodyAttrs: {
                class: "navbar-light"
-           },
-           script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+           }
        })
    
 </script>

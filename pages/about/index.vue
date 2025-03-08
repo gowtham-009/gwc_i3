@@ -18,14 +18,13 @@
 </template>
 <script setup>
     useHead({
-           title: 'Features',
+           title: 'About',
          meta: [
-           { name: 'description', content: 'My amazing site.' }
+           { name: 'About us', content: 'About Site' }
          ],
            bodyAttrs: {
                class: "navbar-light"
-           },
-           script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+           }
        })
 </script>
 <!-- t -->
