@@ -30,8 +30,8 @@
     useHead({
       title: 'About us',
   meta: [
-    { name: 'description', content: 'This site is About us' },
-    { name: 'keywords', content: 'Nuxt 3, Vuetify, Web Development' },
+  { name: 'description',  content: 'Discover the best resources and tutorials for web development, including HTML, CSS, JavaScript, and more.'  },
+  { name: 'keywords', content: 'Nuxt 3, Vuetify, Web Development' },
     { name: 'author', content: 'w3' },
     { name: 'robots', content: 'index, follow' },
 
