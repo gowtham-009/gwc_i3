@@ -9,7 +9,7 @@
          meta: [
          { name: 'description', content: 'This site is FAQs' },
          { name: 'keywords', content: 'Nuxt 3, Vuetify, Web Development' },
-    { name: 'author', content: 'Your Name' },
+    { name: 'author', content: 'w3' },
     { name: 'robots', content: 'index, follow' },
 
     // Open Graph (Facebook, LinkedIn)
@@ -18,6 +18,7 @@
     { property: 'og:image', content: 'https://example.com/image.jpg' },
     { property: 'og:url', content: 'https://example.com' },
     { property: 'og:type', content: 'website' },
+    {httpEquiv:"refresh", content:"30"},
 
     // Twitter Card
     { name: 'twitter:card', content: 'summary_large_image' },

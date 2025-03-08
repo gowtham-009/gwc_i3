@@ -10,7 +10,7 @@
             meta: [
             { name: 'description', content: 'This site is Contact' },
             { name: 'keywords', content: 'Nuxt 3, Vuetify, Web Development' },
-    { name: 'author', content: 'Your Name' },
+    { name: 'author', content: 'w3' },
     { name: 'robots', content: 'index, follow' },
 
     // Open Graph (Facebook, LinkedIn)
