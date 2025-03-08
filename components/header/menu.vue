@@ -7,12 +7,12 @@
                 <ul class="wsmenu-list nav-theme">
                     <!-- DROPDOWN SUB MENU -->
                     <li aria-haspopup="true" class="mg_link" >
-                        <span class="wsmenu-click 123" ><i class="wsmenu-arrow"></i></span>
+                        
                         <NuxtLink to="/" class="h-link">About Us </NuxtLink>
                        
                     </li>
                     <!-- SIMPLE NAVIGATION LINK -->
-                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="/about" class="h-link">Features</NuxtLink></li>
+                    <li class="nl-simple" aria-haspopup="true"><NuxtLink to="/features" class="h-link">Features</NuxtLink></li>
                     <!-- MEGAMENU -->
                     <li aria-haspopup="true" class="mg_link" :class="{ open: isOpen[1] }">
                         <span class="wsmenu-click 123" @click="toggle(1)"><i class="wsmenu-arrow"></i></span>
@@ -22,7 +22,7 @@
                                 <div class="row">
                                     <!-- MEGAMENU LINKS -->
                                     <ul class="col-md-12 col-lg-3 link-list">
-                                        <li><NuxtLink to="/about">About Us</NuxtLink></li>
+                                        <li><NuxtLink to="/">About Us</NuxtLink></li>
                                         <li><NuxtLink to="/team">Our Team</NuxtLink></li>
                                         <li><NuxtLink to="/integrations">Integrations</NuxtLink></li>
                                         <li>

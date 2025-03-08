@@ -5,9 +5,15 @@
     </div>
 </template>
 <script setup>
-    useHead({
-        bodyAttrs: {
-            class: "navbar-light"
-        },
-    })
+     useHead({
+             title: 'Contacts',
+           meta: [
+             { name: 'description', content: 'My amazing site.' }
+           ],
+             bodyAttrs: {
+                 class: "navbar-light"
+             },
+             script: [ { innerHTML: 'console.log(\'Hello world\')' } ]
+         })
+     
 </script>

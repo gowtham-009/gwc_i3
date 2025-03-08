@@ -26,8 +26,11 @@
 
 <script setup>
     useHead({
+        
         bodyAttrs: {
             class: "navbar-light"
         }
     });
+
+  
 </script>

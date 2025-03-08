@@ -27,8 +27,15 @@
 
 <script setup>
     useHead({
+        title: 'About Us',
+      meta: [
+        { name: 'description', content: 'My amazing site.' }
+      ],
         bodyAttrs: {
             class: "navbar-light"
-        },
+        }
     })
+
+
+    
 </script>

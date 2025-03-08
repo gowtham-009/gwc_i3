@@ -18,9 +18,16 @@
     </div>
 </template>
 <script setup>
-    useHead({
-        bodyAttrs: {
-            class: "navbar-dark navbar-dark-2"
-        },
-    })
+     useHead({
+          title: 'Features',
+        meta: [
+          { name: 'description', content: 'My amazing site.' }
+        ],
+        
+          bodyAttrs: {
+              class: "navbar-dark"
+          },
+        
+      })
+  
 </script>

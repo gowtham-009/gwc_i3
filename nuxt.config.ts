@@ -5,11 +5,15 @@ export default defineNuxtConfig({
     },
     app: {
         head: {
-            meta: [{ name: "viewport", content: "width=device-width, initial-scale=1" }],
-            title: "Martex - Software, App, SaaS & Startup NuxtJS Template",
-            script: []
+          title: 'Gwc', 
+          htmlAttrs: {
+            lang: 'en',
+          },
+          link: [
+            { rel: 'icon', type: 'image/x-icon', href: 'https://cdn-icons-png.flaticon.com/128/439/439842.png' },
+          ]
         }
-    },
+      },
     css: [
       "~/assets/css/vendors/bootstrap.min.css",
       "~/assets/css/vendors/flaticon.css",
